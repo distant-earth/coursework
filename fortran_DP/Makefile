@@ -30,4 +30,4 @@ clean:
 	echo "Cleaned!"
 
 .PHONY: clean res build plot
-.SILENT: clean res
+.SILENT: res clean
