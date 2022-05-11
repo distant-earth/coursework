@@ -20,7 +20,7 @@ main.o: modd.o dop853.o
 
 res: $(PRG)
 	./$<
-	spd-say 'toots toots toots'
+	spd-say 'finished'
 	
 plot: main
 	python3 plotting.py
